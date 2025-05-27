@@ -1,6 +1,6 @@
 {
   "name": "@rsc-labs/medusa-paypal-payment",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Paypal payment provider for Medusa",
   "author": "RSC Labs (https://rsoftcon.com)",
   "license": "MIT",

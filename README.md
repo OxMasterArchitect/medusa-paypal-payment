@@ -25,7 +25,8 @@ and execute install, e.g. `yarn install`.
     {
       resolve: "@rsc-labs/medusa-paypal-payment",
       options: {
-        token: <app-token>,
+        oAuthClientId: <oauth-client-id>,
+        oAuthClientSecret: <oauth-client-secret>,
         environment: <env-definition>,
       },
     }
