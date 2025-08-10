@@ -41,7 +41,7 @@ import {
   PatchOp,
   Money,
 } from "@paypal/paypal-server-sdk";
-import { convertAmount } from "src/utils/formatters";
+import { convertAmount } from "./formatters";
 
 type Options = {
   oAuthClientId?: string;

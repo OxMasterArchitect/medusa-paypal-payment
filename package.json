@@ -1,6 +1,6 @@
 {
   "name": "@nackamoto/medusa-paypal-payment",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Paypal payment provider for Medusa",
   "author": "Master Architect",
   "license": "MIT",
