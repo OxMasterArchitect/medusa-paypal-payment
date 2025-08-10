@@ -25,18 +25,19 @@
     "prepublishOnly": "medusa plugin:build"
   },
   "dependencies": {
+    "@medusajs/utils": "^2.8.8",
     "@mui/material": "^6.4.1",
-    "typeorm": "^0.3.20",
-    "@paypal/paypal-server-sdk": "^1.0.0"
+    "@paypal/paypal-server-sdk": "^1.0.0",
+    "typeorm": "^0.3.20"
   },
   "devDependencies": {
     "@medusajs/admin-sdk": "2.7.0",
     "@medusajs/cli": "2.7.0",
     "@medusajs/framework": "2.7.0",
+    "@medusajs/icons": "2.7.0",
     "@medusajs/medusa": "2.7.0",
     "@medusajs/test-utils": "2.7.0",
     "@medusajs/ui": "4.0.3",
-    "@medusajs/icons": "2.7.0",
     "@mikro-orm/cli": "6.4.3",
     "@mikro-orm/core": "6.4.3",
     "@mikro-orm/knex": "6.4.3",
@@ -60,10 +61,10 @@
     "@medusajs/admin-sdk": "2.7.0",
     "@medusajs/cli": "2.7.0",
     "@medusajs/framework": "2.7.0",
-    "@medusajs/test-utils": "2.7.0",
-    "@medusajs/medusa": "2.7.0",
-    "@medusajs/ui": "4.0.3",
     "@medusajs/icons": "2.7.0",
+    "@medusajs/medusa": "2.7.0",
+    "@medusajs/test-utils": "2.7.0",
+    "@medusajs/ui": "4.0.3",
     "@mikro-orm/cli": "6.4.3",
     "@mikro-orm/core": "6.4.3",
     "@mikro-orm/knex": "6.4.3",
