@@ -301,7 +301,7 @@ class PaypalPaymentProviderService extends AbstractPaymentProvider<Options> {
 
       const paymentId = purchaseUnit.payments?.captures![0].id as string;
       const currencyCode = purchaseUnit.amount?.currencyCode as string;
-      const amount = paymentData.amount as BigNumberRawValue;
+      const amount = paymentData.amount;
       const paymentsController = new PaymentsController(this.paypal_);
       try {
         await paymentsController.refundCapturedPayment({
