@@ -12,9 +12,10 @@ Medusa Paypal Payment is a basic integration of payment provider for Paypal.
 
 ```json
 ...
-"@rsc-labs/medusa-paypal-payment": "0.0.1" // or other available version
+"@nackamoto/medusa-paypal-payment": "0.0.2" // or other available version
 ...
 ```
+
 and execute install, e.g. `yarn install`.
 
 2. Add plugin to your `medusa-config.js` (**Note** - please notice that you need to add it to payment plugin):
@@ -23,7 +24,7 @@ and execute install, e.g. `yarn install`.
 ...
   plugins: [
     {
-      resolve: "@rsc-labs/medusa-paypal-payment",
+      resolve: "@nackamoto/medusa-paypal-payment",
       options: {
         oAuthClientId: <oauth-client-id>,
         oAuthClientSecret: <oauth-client-secret>,
@@ -37,7 +38,7 @@ and execute install, e.g. `yarn install`.
       options: {
         providers: [
           {
-            resolve: "@rsc-labs/medusa-paypal-payment/providers/paypal-payment",
+            resolve: "@nackamoto/medusa-paypal-payment/providers/paypal-payment",
             id: "paypal-payment",
             options: {
               oAuthClientId: <oauth-client-id>,
@@ -54,6 +55,7 @@ and execute install, e.g. `yarn install`.
 ## Overview
 
 The Paypal Provider gives ability to:
+
 - make a payment using Paypal
 - cancel payment
 - refund payment
@@ -66,7 +68,6 @@ Plugin uses 3 required parameters:
 - `oAuthClientId` - required parameter which you can find in your Paypal Developer Dashboard
 - `oAuthClientSecret` - required parameter which you can find in your Paypal Developer Dashboard
 - `environment` - set to `sandbox` or `production`. You can use it to test with your `sandbox` environment.
-
 
 After above configuration, you can then add the payment provider to your reqion.
 

@@ -1,15 +1,15 @@
 {
-  "name": "@rsc-labs/medusa-paypal-payment",
-  "version": "0.0.2",
+  "name": "@nackamoto/medusa-paypal-payment",
+  "version": "0.0.1",
   "description": "Paypal payment provider for Medusa",
-  "author": "RSC Labs (https://rsoftcon.com)",
+  "author": "Master Architect",
   "license": "MIT",
   "files": [
     ".medusa/server"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/RSC-Labs/medusa-paypal-payment"
+    "url": "git+https://github.com/OxMasterArchitect/paypal-provider-medusajs.git"
   },
   "keywords": [
     "medusa-plugin-payment",
