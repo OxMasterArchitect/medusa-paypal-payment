@@ -72,7 +72,7 @@ type PaypalCurrencyCode = keyof PaypalCurrencyCodes;
 export function convertAmount(
   amount: BigNumberInput,
   currency: string
-): { value: string; currency_code: PaypalCurrencyCode } {
+): { value: string; currencyCode: PaypalCurrencyCode } {
   const currency_ = currency.toUpperCase();
 
   if (!(currency_ in PAYPAL_CURRENCY_CODES)) {
@@ -93,5 +93,5 @@ export function convertAmount(
     throw new Error(`Amount string exceeds 32 character limit: ${value}`);
   }
 
-  return { value, currency_code };
+  return { value, currencyCode: currency_code };
 }
